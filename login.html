@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    
+    <div class="container">
+        <div class="container px-4 py-5">
+            <div class="row align-items-center g-lg-5 py-5">
+              <div class="col mx-auto col-lg-5">
+                <form class="mt-5 p-4 p-md-5 border rounded-3 bg-body-tertiary" action="admin.html">
+                <button type="button" class="btn btn-primary" onclick="goBack()">Go Back</button>  
+                <div class="text-center">
+                    <img src="img/logo.png" class="img-fluid" width="150" alt="">
+                </div>
+                  <div class="form-floating mt-4 mb-3">
+                    <input type="text" class="form-control" id="uname" placeholder="">
+                    <label for="floatingInput">Username</label>
+                  </div>
+                  <div class="form-floating mb-3">
+                    <input type="password" class="form-control" id="pword" placeholder="">
+                    <label for="floatingPassword">Password</label>
+                  </div>
+                  <div class="row mb-4">
+                    <div class="col d-flex justify-content-center">
+                      <!-- Checkbox -->
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="form2Example31" checked />
+                        <label class="form-check-label" for="form2Example31"> Remember me </label>
+                      </div>
+                    </div>
+                
+                    <div class="col">
+                      <!-- Simple link -->
+                      <a href="#!" style="text-decoration: none;">Forgot password?</a>
+                    </div>
+                  </div>
+                  <button class="w-100 btn btn-lg btn-primary mb-4" type="submit">Sign In</button>
+                  <div class="text-center">
+                    <p><a href="#" style="text-decoration: none;">Register Account</a></p>
+                  </div>
+                </form>
+              </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+
+      function goBack() {
+        history.back();
+      }
+      
+    </script>
+
+</body>
+</html>
